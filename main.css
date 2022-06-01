@@ -1,0 +1,387 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ==============================
+  GENERAL
+  ==============================
+ */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+	padding: 0 0 0 0;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*
+  ==============================
+  HEADER
+  ==============================
+*/
+
+header {
+	color: #F9FAF8;
+	background-color: #1f2937;
+	width: 70%;
+	/*border: 1px solid red;*/
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: ;
+	/*align-items: center;*/
+}
+
+header .logo {
+	font-size: 24px;
+	/*border: 1px solid greenyellow;*/
+	width: 50%;
+}
+
+.navbar{
+	width: 50%;
+	/*border: 1px solid orangered;*/
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+
+.logo a {
+	color: #F9FAF8;
+	font-weight: bold;
+}
+
+.navbar a {
+	font-size: 13px;
+	color: #E5E7EB;
+	margin-right: 1em;
+}
+
+.navbar:last-child {
+	margin-right: 1em;
+}
+
+/*
+  ==============================
+  HERO MAIN TEXT
+  ==============================
+*/
+
+.sex1 {
+	background-color: #1f2937;
+	height: 250px;
+	width: 70%;
+	display: flex;
+
+}
+
+.mainHero {
+	/*border: 1px solid red;*/
+	width: 50%;
+	
+	
+}
+
+.mainHero h1 {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.mainHero p {
+	font-size: 15px;
+	color: #E5E7EB;
+}
+
+.foto {
+	/*border: 1px solid greenyellow;*/
+	display: border-box;
+	width: 43%;
+	margin: 0 30px 30px 30px;
+	background-color: grey;
+	color: #e5e7eb;
+}
+
+.foto p {
+	padding: 105px 70px 0px 70px;
+}
+
+/*
+  ==============================
+  BOTTONS
+  ==============================
+*/
+.btn {
+	background-color: #3882F6;
+	color: white;
+	margin-top: 6px;
+	/*border: none;*/
+	border-radius: .6em;
+	padding: .5em;
+}
+
+.mainHero .btn {
+	border: none;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #3882F6;
+}
+
+.sex4 .btn {
+	border-color: white;
+}
+ 
+
+
+/*
+  ==============================
+  SECTION1
+  ==============================
+*/
+section {
+	height: 350px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	/*border: 1px solid black;*/
+	width: 100%;
+}
+
+section.item1 {
+	background-color: #1f2937;	
+}
+
+/*
+  ==============================
+	SECTION2
+  ==============================
+*/
+
+.sex2 {
+	/*border: 1px solid red;*/
+	width: 62%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.tilulo {
+	height: 25%;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+
+.tilulo h3 {
+	margin-top: 4.7%;
+	text-align: center;
+	font-size: 38px;
+	font-weight: bolder;
+}
+
+.squares {
+	/*border: 1px solid rebeccapurple;*/
+	height: 75%;
+	width: 100%;
+}
+
+.cajas,
+.texto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box {
+	border: 1px solid #3882F6;
+	box-sizing: border-box;
+	height: 150px;
+	width: 150px;
+	border-radius: .5em;
+	border-width: .2em;
+}
+
+.parra {
+	text-align: center;
+	color:  gray;
+	height: 100px;
+	width: 150px;
+}
+
+/*
+  ==============================
+	SECTION3
+  ==============================
+*/
+
+.item3 {
+	background-color: #e5e7eb;
+}
+
+.sex3 {
+	/*border: 1px solid black;*/
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+blockquote,
+.autor-box {
+	/*border: 1px solid black;*/
+	width: 60%;
+}
+
+blockquote {
+	font-size: 36px;
+	font-family: 'Bad Script', cursive;
+	font-weight: lighter;
+	color: darkslategray;
+}
+
+
+.autor-box {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+.autor {
+	/*border: 1px solid black;*/
+	font-weight: bolder;
+	margin-right: 2em;
+}
+
+/*
+  ==============================
+	SECTION4
+  ==============================
+*/
+
+.item4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sex4 {
+	background-color: #3882F6;
+	/*border: 1px solid black;*/
+	border-radius: 1em;
+	height: 45%;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sex4 div h4 {
+	color: white;
+	font-size: 1.5em;
+}
+
+.sex4 div p {
+	color: #E5E7EB;
+	font-size: 1em;
+}
+
+/*
+  ==============================
+	FOOTER
+  ==============================
+*/
+
+footer {
+	height: 100px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
